@@ -1,0 +1,39 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "totvs_language_debug",
+			"request": "launch",
+			"name": "Depuração TOTVS",
+			"program": "${command:AskForProgramName}",
+			"cwb": "${workspaceFolder}",
+			"tdsReplayFile": "",
+			"ignoreFiles": false,
+			"password": "",
+			"includeSources": "*",
+			"excludeSources": "",
+			"smartclientBin": "C:\\TOTVS_LG\\Protheus\\bin\\smartclient\\smartclient.exe",
+			"isMultiSession": true,
+			"enableMultiThread": true,
+			"enableTableSync": true
+		}
+	],
+	"lastPrograms": [
+		{
+			"label": "U_HelloWorld"
+		},
+		{
+			"label": "U_Variable"
+		},
+		{
+			"label": "U_Escopo"
+		},
+		{
+			"label": "U_Operador"
+		},
+		{
+			"label": "U_Calculadora"
+		}
+	],
+	"lastProgramExecuted": "U_Calculadora"
+}
